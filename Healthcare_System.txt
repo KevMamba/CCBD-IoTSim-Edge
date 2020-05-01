@@ -92,6 +92,11 @@ VMiD 1
 VMiD c 1
 7.1 broker received edgeLet 9 from iot 7 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+Temperature from sensor reaching critical levels --- 95.0
+Temperature from sensor reaching critical levels --- 95.0
+Temperature from sensor reaching critical levels --- 95.0
+Temperature from sensor reaching critical levels --- 95.0
+Temperature from sensor reaching critical levels --- 95.0
 9.1 TemperatureSensor 3 is sending data
 9.1 TemperatureSensor 4 is sending data
 9.1 TemperatureSensor 5 is sending data
@@ -117,11 +122,6 @@ VMiD 1
 VMiD c 1
 10.1 broker received edgeLet 14 from iot 7 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
 microELement.getId() 2
 shrinked Edgelet 15 sent from microELement 1 to microELement 2
 microELement.getId() 3
@@ -182,16 +182,6 @@ VMiD 3
 VMiD c 2
 11.594999999999999 broker received edgeLet 24 from iot 7 and send it to VM 3
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
 12.1 TemperatureSensor 3 is sending data
 12.1 TemperatureSensor 4 is sending data
 12.1 TemperatureSensor 5 is sending data
@@ -402,11 +392,6 @@ VMiD 1
 VMiD c 1
 28.1 broker received edgeLet 64 from iot 7 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
-Temperature from sensor reaching critical levels --- 91.0
-Temperature from sensor reaching critical levels --- 91.0
-Temperature from sensor reaching critical levels --- 91.0
-Temperature from sensor reaching critical levels --- 91.0
-Temperature from sensor reaching critical levels --- 91.0
 microELement.getId() 2
 shrinked Edgelet 65 sent from microELement 1 to microELement 2
 microELement.getId() 3
@@ -467,16 +452,6 @@ VMiD 3
 VMiD c 2
 30.0 broker received edgeLet 74 from iot 7 and send it to VM 3
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
-Temperature from sensor reaching critical levels --- 91.0
-Temperature from sensor reaching critical levels --- 91.0
-Temperature from sensor reaching critical levels --- 91.0
-Temperature from sensor reaching critical levels --- 91.0
-Temperature from sensor reaching critical levels --- 91.0
-Temperature from sensor reaching critical levels --- 91.0
-Temperature from sensor reaching critical levels --- 91.0
-Temperature from sensor reaching critical levels --- 91.0
-Temperature from sensor reaching critical levels --- 91.0
-Temperature from sensor reaching critical levels --- 91.0
 30.1 TemperatureSensor 3 is sending data
 30.1 TemperatureSensor 4 is sending data
 30.1 TemperatureSensor 5 is sending data
@@ -502,6 +477,11 @@ VMiD 1
 VMiD c 1
 31.1 broker received edgeLet 79 from iot 7 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+Temperature from sensor reaching critical levels --- 96.0
+Temperature from sensor reaching critical levels --- 96.0
+Temperature from sensor reaching critical levels --- 96.0
+Temperature from sensor reaching critical levels --- 96.0
+Temperature from sensor reaching critical levels --- 96.0
 33.1 TemperatureSensor 3 is sending data
 33.1 TemperatureSensor 4 is sending data
 33.1 TemperatureSensor 5 is sending data
@@ -527,11 +507,11 @@ VMiD 1
 VMiD c 1
 34.1 broker received edgeLet 84 from iot 7 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
-Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 98.0
+Temperature from sensor reaching critical levels --- 98.0
+Temperature from sensor reaching critical levels --- 98.0
+Temperature from sensor reaching critical levels --- 98.0
+Temperature from sensor reaching critical levels --- 98.0
 36.1 TemperatureSensor 3 is sending data
 36.1 TemperatureSensor 4 is sending data
 36.1 TemperatureSensor 5 is sending data
@@ -1097,6 +1077,11 @@ VMiD 1
 VMiD c 1
 73.1 broker received edgeLet 189 from iot 7 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+Temperature from sensor reaching critical levels --- 98.0
+Temperature from sensor reaching critical levels --- 98.0
+Temperature from sensor reaching critical levels --- 98.0
+Temperature from sensor reaching critical levels --- 98.0
+Temperature from sensor reaching critical levels --- 98.0
 75.1 TemperatureSensor 3 is sending data
 75.1 TemperatureSensor 4 is sending data
 75.1 TemperatureSensor 5 is sending data
@@ -1122,6 +1107,11 @@ VMiD 1
 VMiD c 1
 76.1 broker received edgeLet 194 from iot 7 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+Temperature from sensor reaching critical levels --- 93.0
+Temperature from sensor reaching critical levels --- 93.0
+Temperature from sensor reaching critical levels --- 93.0
+Temperature from sensor reaching critical levels --- 93.0
+Temperature from sensor reaching critical levels --- 93.0
 microELement.getId() 2
 shrinked Edgelet 195 sent from microELement 1 to microELement 2
 microELement.getId() 3
@@ -1182,6 +1172,16 @@ VMiD 3
 VMiD c 2
 76.72999999999999 broker received edgeLet 204 from iot 7 and send it to VM 3
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+Temperature from sensor reaching critical levels --- 93.0
+Temperature from sensor reaching critical levels --- 93.0
+Temperature from sensor reaching critical levels --- 93.0
+Temperature from sensor reaching critical levels --- 93.0
+Temperature from sensor reaching critical levels --- 93.0
+Temperature from sensor reaching critical levels --- 93.0
+Temperature from sensor reaching critical levels --- 93.0
+Temperature from sensor reaching critical levels --- 93.0
+Temperature from sensor reaching critical levels --- 93.0
+Temperature from sensor reaching critical levels --- 93.0
 78.1 TemperatureSensor 3 is sending data
 78.1 TemperatureSensor 4 is sending data
 78.1 TemperatureSensor 5 is sending data
