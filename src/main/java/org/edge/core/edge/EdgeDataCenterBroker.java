@@ -12,6 +12,7 @@ import org.cloudbus.cloudsim.core.CloudSim;
 import org.cloudbus.cloudsim.core.CloudSimTags;
 import org.cloudbus.cloudsim.core.SimEntity;
 import org.cloudbus.cloudsim.core.SimEvent;
+import org.cloudbus.cloudsim.lists.VmList;
 import org.edge.core.feature.EdgeLet;
 import org.edge.core.feature.EdgeState;
 import org.edge.core.feature.Mobility.Location;
@@ -229,13 +230,13 @@ public class EdgeDataCenterBroker extends DatacenterBroker {
 			for (Vm vm : vmList2) {
 				if (vm.getId() == connectionHeader.vmId) {
 					EdgeDevice device = (EdgeDevice) host;
-					
+
 					//(double fileSize, double shrinkFactor,double drangeRateForProcess,double drangeRateForSending)
-					double shrik=0.1;
+					float shrink = vm.dataShrinkFactor;
 					if(vm.getId()==1)
-					device.updateBatteryByProcessingCloudLetAndSend(1000, shrik,0.1,0.6);
+					device.updateBatteryByProcessingCloudLetAndSend(1000, shrink,0.1,0.6);
 					else
-						device.updateBatteryByProcessingCloudLetAndSend2(1000, shrik,0.1,0.6);
+						device.updateBatteryByProcessingCloudLetAndSend2(1000, shrink,0.1,0.6);
 					
 				}
 			}
@@ -259,7 +260,9 @@ public class EdgeDataCenterBroker extends DatacenterBroker {
 					Location location = device.getLocation().location;
 					Location location2 = entity2.getMobility().location;
 					double singalRange = device.getLocation().signalRange;
-					double distance = Math.abs(location2.x - location.x);
+					double distance = Math.sqrt( Math.pow(location2.x - location.x,2) +
+							Math.pow(location2.y - location.y,2) +
+							Math.pow(location2.z - location.z,2));
 					if (singalRange >= distance && device.isEnabled())
 						return true;
 
@@ -387,7 +390,8 @@ public class EdgeDataCenterBroker extends DatacenterBroker {
 						.findFirst().orElseThrow(MicroElementNotFoundException::new);
 				double increasingFactor = findFirst.getEdgeOperation().getIncreasingFactor();
 
-				data.setCloudletLength(data.getCloudletLength() * increasingFactor);
+				long value = (long) (data.getCloudletLength() * increasingFactor);
+				data.setCloudletLength(value);
 				this.submitCloudletList(list);
 				this.submitCloudlets(data.getConnectionHeader());
 				return;

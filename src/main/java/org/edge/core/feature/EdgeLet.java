@@ -9,6 +9,7 @@ import org.edge.entity.ConnectionHeader;
 public class EdgeLet extends Cloudlet {
 	
 	public static int id = 0;
+	public static double sensoryData = 0;
 	private ConnectionHeader header;
 	private boolean edgeRecord;
 	public ConnectionHeader getConnectionHeader() {
@@ -73,7 +74,7 @@ public class EdgeLet extends Cloudlet {
 	public EdgeLet(int cloudletId, double cloudletLength, int pesNumber, double cloudletFileSize, double cloudletOutputSize,
 			UtilizationModel utilizationModelCpu, UtilizationModel utilizationModelRam,
 			UtilizationModel utilizationModelBw, boolean record) {
-		super(cloudletId, cloudletLength, pesNumber, cloudletFileSize, cloudletOutputSize, utilizationModelCpu,
+		super(cloudletId, (long) cloudletLength, pesNumber, (long) cloudletFileSize, (long) cloudletOutputSize, utilizationModelCpu,
 				utilizationModelRam, utilizationModelBw, record);
 		this.edgeRecord=record;
 	}
@@ -81,7 +82,7 @@ public class EdgeLet extends Cloudlet {
 	public EdgeLet(int cloudletId, double cloudletLength, int pesNumber, double cloudletFileSize, double cloudletOutputSize,
 			UtilizationModel utilizationModelCpu, UtilizationModel utilizationModelRam,
 			UtilizationModel utilizationModelBw, List<String> fileList) {
-		super(cloudletId, cloudletLength, pesNumber, cloudletFileSize, cloudletOutputSize, utilizationModelCpu,
+		super(cloudletId, (long) cloudletLength, pesNumber, (long) cloudletFileSize, (long) cloudletOutputSize, utilizationModelCpu,
 				utilizationModelRam, utilizationModelBw, fileList);
 	
 	}

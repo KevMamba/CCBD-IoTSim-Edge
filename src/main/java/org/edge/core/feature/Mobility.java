@@ -24,9 +24,24 @@ public class Mobility {
 	public static class MovingRange{
 		public int beginX;
 		public int endX;
+		public int beginY;
+		public int endY;
+		public int beginZ;
+		public int endZ;
 
 		public MovingRange() {
 			super();
+		}
+
+		public MovingRange(int beginX, int endX, int beginY, int endY, int beginZ, int endZ) {
+			super();
+			this.beginX = beginX;
+			this.endX = endX;
+			this.beginY =  beginY;
+			this.endY = endY;
+			this.beginZ =  beginZ;
+			this.endZ = endZ;
+
 		}
 
 		public MovingRange(int beginX, int endX) {
@@ -34,7 +49,6 @@ public class Mobility {
 			this.beginX = beginX;
 			this.endX = endX;
 		}
-
 	}
 
 

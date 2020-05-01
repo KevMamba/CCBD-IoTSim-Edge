@@ -2,12 +2,11 @@ package org.edge.core.edge;
 
 import java.util.List;
 
-import org.cloudbus.cloudsim.Datacenter;
-import org.cloudbus.cloudsim.Host;
-import org.cloudbus.cloudsim.Storage;
-import org.cloudbus.cloudsim.Vm;
-import org.cloudbus.cloudsim.VmAllocationPolicy;
+import org.cloudbus.cloudsim.*;
+import org.cloudbus.cloudsim.core.CloudSim;
+import org.cloudbus.cloudsim.core.CloudSimTags;
 import org.cloudbus.cloudsim.core.SimEvent;
+import org.edge.core.feature.EdgeLet;
 import org.edge.core.feature.EdgeState;
 import org.edge.core.iot.IoTDevice;
 import org.edge.entity.ConnectionHeader;
@@ -42,14 +41,128 @@ public class EdgeDataCenter extends Datacenter {
 	}
 
 	@Override
+	protected void processCloudletSubmit(SimEvent ev, boolean ack) {
+		updateCloudletProcessing();
+
+		EdgeLet el = (EdgeLet) ev.getData();
+		if (el.sensoryData > 85) {
+			LogUtil.info("Temperature from sensor reaching critical levels --- " + el.sensoryData);
+		}
+		try {
+			// gets the Cloudlet object
+			Cloudlet cl = (Cloudlet) ev.getData();
+
+			// checks whether this Cloudlet has finished or not
+			if (cl.isFinished()) {
+				String name = CloudSim.getEntityName(cl.getUserId());
+				Log.printLine(getName() + ": Warning - Cloudlet #" + cl.getCloudletId() + " owned by " + name
+						+ " is already completed/finished.");
+				Log.printLine("Therefore, it is not being executed again");
+				Log.printLine();
+
+				// NOTE: If a Cloudlet has finished, then it won't be processed.
+				// So, if ack is required, this method sends back a result.
+				// If ack is not required, this method don't send back a result.
+				// Hence, this might cause CloudSim to be hanged since waiting
+				// for this Cloudlet back.
+				if (ack) {
+					int[] data = new int[3];
+					data[0] = getId();
+					data[1] = cl.getCloudletId();
+					data[2] = CloudSimTags.FALSE;
+
+					// unique tag = operation tag
+					int tag = CloudSimTags.CLOUDLET_SUBMIT_ACK;
+					sendNow(cl.getUserId(), tag, data);
+				}
+
+				sendNow(cl.getUserId(), CloudSimTags.CLOUDLET_RETURN, cl);
+
+				return;
+			}
+
+			// process this Cloudlet to this CloudResource
+			cl.setResourceParameter(getId(), getCharacteristics().getCostPerSecond(), getCharacteristics()
+					.getCostPerBw());
+
+			int userId = cl.getUserId();
+			int vmId = cl.getVmId();
+
+			// time to transfer the files
+			double fileTransferTime = predictFileTransferTime(cl.getRequiredFiles());
+
+			Host host = getVmAllocationPolicy().getHost(vmId, userId);
+			Vm vm = host.getVm(vmId, userId);
+			CloudletScheduler scheduler = vm.getCloudletScheduler();
+			double estimatedFinishTime = scheduler.cloudletSubmit(cl, fileTransferTime);
+
+			// if this cloudlet is in the exec queue
+			if (estimatedFinishTime > 0.0 && !Double.isInfinite(estimatedFinishTime)) {
+				estimatedFinishTime += fileTransferTime;
+				send(getId(), estimatedFinishTime, CloudSimTags.VM_DATACENTER_EVENT);
+			}
+
+			if (ack) {
+				int[] data = new int[3];
+				data[0] = getId();
+				data[1] = cl.getCloudletId();
+				data[2] = CloudSimTags.TRUE;
+
+				// unique tag = operation tag
+				int tag = CloudSimTags.CLOUDLET_SUBMIT_ACK;
+				sendNow(cl.getUserId(), tag, data);
+			}
+		} catch (ClassCastException c) {
+			Log.printLine(getName() + ".processCloudletSubmit(): " + "ClassCastException error.");
+			c.printStackTrace();
+		} catch (Exception e) {
+			Log.printLine(getName() + ".processCloudletSubmit(): " + "Exception error.");
+			e.printStackTrace();
+		}
+
+		checkCloudletCompletion();
+	}
+
+	@Override
+	protected void processVmCreate(SimEvent ev, boolean ack) {
+		Vm vm = (Vm) ev.getData();
+
+		boolean result = getVmAllocationPolicy().
+				allocateHostForVm(vm);
+
+		if (ack) {
+			int[] data = new int[3];
+			data[0] = getId();
+			data[1] = vm.getId();
+
+			if (result) {
+				data[2] = CloudSimTags.TRUE;
+			} else {
+				data[2] = CloudSimTags.FALSE;
+			}
+			send(vm.getUserId(), CloudSim.getMinTimeBetweenEvents(), CloudSimTags.VM_CREATE_ACK, data);
+		}
+
+		if (result) {
+			getVmList().add(vm);
+
+			if (vm.isBeingInstantiated()) {
+				vm.setBeingInstantiated(false);
+			}
+
+			vm.updateVmProcessing(CloudSim.clock(), getVmAllocationPolicy().getHost(vm).getVmScheduler()
+					.getAllocatedMipsForVm(vm));
+		}
+
+	}
+
+	@Override
 	public void processEvent(SimEvent ev) {
 		// TODO Auto-generated method stub
 
 		super.processEvent(ev);
-	
-
-
 	}
+
 	@Override
 	public void processOtherEvent(SimEvent ev) {
 		// TODO Auto-generated method stub

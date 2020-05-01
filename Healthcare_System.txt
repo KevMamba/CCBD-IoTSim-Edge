@@ -1,0 +1,1675 @@
+Start-exp
+Number of IoT     5
+Config of IoT Battary    100.0
+initialize  network connection
+request connection with ioT 3
+got the required device!
+request connection with ioT 4
+got the required device!
+request connection with ioT 5
+got the required device!
+request connection with ioT 6
+got the required device!
+request connection with ioT 7
+got the required device!
+received request for connection from broker2
+ack request to broker 2
+received request for connection from broker2
+ack request to broker 2
+received request for connection from broker2
+ack request to broker 2
+received request for connection from broker2
+ack request to broker 2
+received request for connection from broker2
+ack request to broker 2
+broker received  connection ack  from ioT 3
+broker received  connection ack  from ioT 4
+broker received  connection ack  from ioT 5
+broker received  connection ack  from ioT 6
+broker received  connection ack  from ioT 7
+broker received  connection ack  from vm 1
+send ack to ioT 3 that the connection has been successfully established
+broker received  connection ack  from vm 1
+send ack to ioT 4 that the connection has been successfully established
+broker received  connection ack  from vm 1
+send ack to ioT 5 that the connection has been successfully established
+broker received  connection ack  from vm 1
+send ack to ioT 6 that the connection has been successfully established
+broker received  connection ack  from vm 1
+send ack to ioT 7 that the connection has been successfully established
+0.1 TemperatureSensor 3 has established connection with vm 1 and start to sense
+0.1 TemperatureSensor 4 has established connection with vm 1 and start to sense
+0.1 TemperatureSensor 5 has established connection with vm 1 and start to sense
+0.1 TemperatureSensor 6 has established connection with vm 1 and start to sense
+0.1 TemperatureSensor 7 has established connection with vm 1 and start to sense
+3.1 TemperatureSensor 3 is sending data
+3.1 TemperatureSensor 4 is sending data
+3.1 TemperatureSensor 5 is sending data
+3.1 TemperatureSensor 6 is sending data
+3.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+4.1 broker received edgeLet 0 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+4.1 broker received edgeLet 1 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+4.1 broker received edgeLet 2 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+4.1 broker received edgeLet 3 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+4.1 broker received edgeLet 4 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+6.1 TemperatureSensor 3 is sending data
+6.1 TemperatureSensor 4 is sending data
+6.1 TemperatureSensor 5 is sending data
+6.1 TemperatureSensor 6 is sending data
+6.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+7.1 broker received edgeLet 5 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+7.1 broker received edgeLet 6 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+7.1 broker received edgeLet 7 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+7.1 broker received edgeLet 8 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+7.1 broker received edgeLet 9 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+9.1 TemperatureSensor 3 is sending data
+9.1 TemperatureSensor 4 is sending data
+9.1 TemperatureSensor 5 is sending data
+9.1 TemperatureSensor 6 is sending data
+9.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+10.1 broker received edgeLet 10 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+10.1 broker received edgeLet 11 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+10.1 broker received edgeLet 12 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+10.1 broker received edgeLet 13 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+10.1 broker received edgeLet 14 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+microELement.getId() 2
+shrinked Edgelet 15 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 16 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 17 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 18 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 19 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 20 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 21 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 22 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 23 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 24 sent from microELement 1 to microELement 3
+VMiD 2
+VMiD c 3
+11.594999999999999 broker received edgeLet 15 from iot 3 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+11.594999999999999 broker received edgeLet 16 from iot 3 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+11.594999999999999 broker received edgeLet 17 from iot 4 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+11.594999999999999 broker received edgeLet 18 from iot 4 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+11.594999999999999 broker received edgeLet 19 from iot 5 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+11.594999999999999 broker received edgeLet 20 from iot 5 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+11.594999999999999 broker received edgeLet 21 from iot 6 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+11.594999999999999 broker received edgeLet 22 from iot 6 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+11.594999999999999 broker received edgeLet 23 from iot 7 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+11.594999999999999 broker received edgeLet 24 from iot 7 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+12.1 TemperatureSensor 3 is sending data
+12.1 TemperatureSensor 4 is sending data
+12.1 TemperatureSensor 5 is sending data
+12.1 TemperatureSensor 6 is sending data
+12.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+13.1 broker received edgeLet 25 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+13.1 broker received edgeLet 26 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+13.1 broker received edgeLet 27 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+13.1 broker received edgeLet 28 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+13.1 broker received edgeLet 29 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+15.1 TemperatureSensor 3 is sending data
+15.1 TemperatureSensor 4 is sending data
+15.1 TemperatureSensor 5 is sending data
+15.1 TemperatureSensor 6 is sending data
+15.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+16.1 broker received edgeLet 30 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+16.1 broker received edgeLet 31 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+16.1 broker received edgeLet 32 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+16.1 broker received edgeLet 33 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+16.1 broker received edgeLet 34 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+18.1 TemperatureSensor 3 is sending data
+18.1 TemperatureSensor 4 is sending data
+18.1 TemperatureSensor 5 is sending data
+18.1 TemperatureSensor 6 is sending data
+18.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+19.1 broker received edgeLet 35 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+19.1 broker received edgeLet 36 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+19.1 broker received edgeLet 37 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+19.1 broker received edgeLet 38 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+19.1 broker received edgeLet 39 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+21.1 TemperatureSensor 3 is sending data
+21.1 TemperatureSensor 4 is sending data
+21.1 TemperatureSensor 5 is sending data
+21.1 TemperatureSensor 6 is sending data
+21.1 TemperatureSensor 7 is sending data
+microELement.getId() 2
+shrinked Edgelet 45 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 46 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 47 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 48 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 49 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 50 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 51 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 52 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 53 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 54 sent from microELement 1 to microELement 3
+VMiD 2
+VMiD c 3
+21.580000000000002 broker received edgeLet 45 from iot 3 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+21.580000000000002 broker received edgeLet 46 from iot 3 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+21.580000000000002 broker received edgeLet 47 from iot 4 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+21.580000000000002 broker received edgeLet 48 from iot 4 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+21.580000000000002 broker received edgeLet 49 from iot 5 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+21.580000000000002 broker received edgeLet 50 from iot 5 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+21.580000000000002 broker received edgeLet 51 from iot 6 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+21.580000000000002 broker received edgeLet 52 from iot 6 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+21.580000000000002 broker received edgeLet 53 from iot 7 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+21.580000000000002 broker received edgeLet 54 from iot 7 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+22.1 broker received edgeLet 40 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+22.1 broker received edgeLet 41 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+22.1 broker received edgeLet 42 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+22.1 broker received edgeLet 43 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+22.1 broker received edgeLet 44 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+24.1 TemperatureSensor 3 is sending data
+24.1 TemperatureSensor 4 is sending data
+24.1 TemperatureSensor 5 is sending data
+24.1 TemperatureSensor 6 is sending data
+24.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+25.1 broker received edgeLet 55 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+25.1 broker received edgeLet 56 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+25.1 broker received edgeLet 57 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+25.1 broker received edgeLet 58 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+25.1 broker received edgeLet 59 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+27.1 TemperatureSensor 3 is sending data
+27.1 TemperatureSensor 4 is sending data
+27.1 TemperatureSensor 5 is sending data
+27.1 TemperatureSensor 6 is sending data
+27.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+28.1 broker received edgeLet 60 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+28.1 broker received edgeLet 61 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+28.1 broker received edgeLet 62 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+28.1 broker received edgeLet 63 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+28.1 broker received edgeLet 64 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+Temperature from sensor reaching critical levels --- 91.0
+Temperature from sensor reaching critical levels --- 91.0
+Temperature from sensor reaching critical levels --- 91.0
+Temperature from sensor reaching critical levels --- 91.0
+Temperature from sensor reaching critical levels --- 91.0
+microELement.getId() 2
+shrinked Edgelet 65 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 66 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 67 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 68 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 69 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 70 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 71 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 72 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 73 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 74 sent from microELement 1 to microELement 3
+VMiD 2
+VMiD c 3
+30.0 broker received edgeLet 65 from iot 3 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+30.0 broker received edgeLet 66 from iot 3 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+30.0 broker received edgeLet 67 from iot 4 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+30.0 broker received edgeLet 68 from iot 4 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+30.0 broker received edgeLet 69 from iot 5 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+30.0 broker received edgeLet 70 from iot 5 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+30.0 broker received edgeLet 71 from iot 6 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+30.0 broker received edgeLet 72 from iot 6 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+30.0 broker received edgeLet 73 from iot 7 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+30.0 broker received edgeLet 74 from iot 7 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+Temperature from sensor reaching critical levels --- 91.0
+Temperature from sensor reaching critical levels --- 91.0
+Temperature from sensor reaching critical levels --- 91.0
+Temperature from sensor reaching critical levels --- 91.0
+Temperature from sensor reaching critical levels --- 91.0
+Temperature from sensor reaching critical levels --- 91.0
+Temperature from sensor reaching critical levels --- 91.0
+Temperature from sensor reaching critical levels --- 91.0
+Temperature from sensor reaching critical levels --- 91.0
+Temperature from sensor reaching critical levels --- 91.0
+30.1 TemperatureSensor 3 is sending data
+30.1 TemperatureSensor 4 is sending data
+30.1 TemperatureSensor 5 is sending data
+30.1 TemperatureSensor 6 is sending data
+30.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+31.1 broker received edgeLet 75 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+31.1 broker received edgeLet 76 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+31.1 broker received edgeLet 77 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+31.1 broker received edgeLet 78 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+31.1 broker received edgeLet 79 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+33.1 TemperatureSensor 3 is sending data
+33.1 TemperatureSensor 4 is sending data
+33.1 TemperatureSensor 5 is sending data
+33.1 TemperatureSensor 6 is sending data
+33.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+34.1 broker received edgeLet 80 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+34.1 broker received edgeLet 81 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+34.1 broker received edgeLet 82 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+34.1 broker received edgeLet 83 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+34.1 broker received edgeLet 84 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+36.1 TemperatureSensor 3 is sending data
+36.1 TemperatureSensor 4 is sending data
+36.1 TemperatureSensor 5 is sending data
+36.1 TemperatureSensor 6 is sending data
+36.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+37.1 broker received edgeLet 85 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+37.1 broker received edgeLet 86 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+37.1 broker received edgeLet 87 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+37.1 broker received edgeLet 88 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+37.1 broker received edgeLet 89 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+39.1 TemperatureSensor 3 is sending data
+39.1 TemperatureSensor 4 is sending data
+39.1 TemperatureSensor 5 is sending data
+39.1 TemperatureSensor 6 is sending data
+39.1 TemperatureSensor 7 is sending data
+microELement.getId() 2
+shrinked Edgelet 95 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 96 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 97 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 98 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 99 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 100 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 101 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 102 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 103 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 104 sent from microELement 1 to microELement 3
+VMiD 2
+VMiD c 3
+39.46 broker received edgeLet 95 from iot 3 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+39.46 broker received edgeLet 96 from iot 3 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+39.46 broker received edgeLet 97 from iot 4 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+39.46 broker received edgeLet 98 from iot 4 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+39.46 broker received edgeLet 99 from iot 5 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+39.46 broker received edgeLet 100 from iot 5 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+39.46 broker received edgeLet 101 from iot 6 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+39.46 broker received edgeLet 102 from iot 6 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+39.46 broker received edgeLet 103 from iot 7 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+39.46 broker received edgeLet 104 from iot 7 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+40.1 broker received edgeLet 90 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+40.1 broker received edgeLet 91 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+40.1 broker received edgeLet 92 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+40.1 broker received edgeLet 93 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+40.1 broker received edgeLet 94 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+42.1 TemperatureSensor 3 is sending data
+42.1 TemperatureSensor 4 is sending data
+42.1 TemperatureSensor 5 is sending data
+42.1 TemperatureSensor 6 is sending data
+42.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+43.1 broker received edgeLet 105 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+43.1 broker received edgeLet 106 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+43.1 broker received edgeLet 107 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+43.1 broker received edgeLet 108 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+43.1 broker received edgeLet 109 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+45.1 TemperatureSensor 3 is sending data
+45.1 TemperatureSensor 4 is sending data
+45.1 TemperatureSensor 5 is sending data
+45.1 TemperatureSensor 6 is sending data
+45.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+46.1 broker received edgeLet 110 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+46.1 broker received edgeLet 111 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+46.1 broker received edgeLet 112 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+46.1 broker received edgeLet 113 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+46.1 broker received edgeLet 114 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+48.1 TemperatureSensor 3 is sending data
+48.1 TemperatureSensor 4 is sending data
+48.1 TemperatureSensor 5 is sending data
+48.1 TemperatureSensor 6 is sending data
+48.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+49.1 broker received edgeLet 115 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+49.1 broker received edgeLet 116 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+49.1 broker received edgeLet 117 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+49.1 broker received edgeLet 118 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+49.1 broker received edgeLet 119 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+microELement.getId() 2
+shrinked Edgelet 120 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 121 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 122 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 123 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 124 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 125 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 126 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 127 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 128 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 129 sent from microELement 1 to microELement 3
+VMiD 2
+VMiD c 3
+49.355000000000004 broker received edgeLet 120 from iot 3 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+49.355000000000004 broker received edgeLet 121 from iot 3 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+49.355000000000004 broker received edgeLet 122 from iot 4 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+49.355000000000004 broker received edgeLet 123 from iot 4 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+49.355000000000004 broker received edgeLet 124 from iot 5 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+49.355000000000004 broker received edgeLet 125 from iot 5 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+49.355000000000004 broker received edgeLet 126 from iot 6 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+49.355000000000004 broker received edgeLet 127 from iot 6 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+49.355000000000004 broker received edgeLet 128 from iot 7 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+49.355000000000004 broker received edgeLet 129 from iot 7 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+51.1 TemperatureSensor 3 is sending data
+51.1 TemperatureSensor 4 is sending data
+51.1 TemperatureSensor 5 is sending data
+51.1 TemperatureSensor 6 is sending data
+51.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+52.1 broker received edgeLet 130 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+52.1 broker received edgeLet 131 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+52.1 broker received edgeLet 132 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+52.1 broker received edgeLet 133 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+52.1 broker received edgeLet 134 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+54.1 TemperatureSensor 3 is sending data
+54.1 TemperatureSensor 4 is sending data
+54.1 TemperatureSensor 5 is sending data
+54.1 TemperatureSensor 6 is sending data
+54.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+55.1 broker received edgeLet 135 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+55.1 broker received edgeLet 136 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+55.1 broker received edgeLet 137 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+55.1 broker received edgeLet 138 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+55.1 broker received edgeLet 139 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+57.1 TemperatureSensor 3 is sending data
+57.1 TemperatureSensor 4 is sending data
+57.1 TemperatureSensor 5 is sending data
+57.1 TemperatureSensor 6 is sending data
+57.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+58.1 broker received edgeLet 140 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+58.1 broker received edgeLet 141 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+58.1 broker received edgeLet 142 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+58.1 broker received edgeLet 143 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+58.1 broker received edgeLet 144 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+microELement.getId() 2
+shrinked Edgelet 145 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 146 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 147 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 148 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 149 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 150 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 151 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 152 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 153 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 154 sent from microELement 1 to microELement 3
+VMiD 2
+VMiD c 3
+58.28 broker received edgeLet 145 from iot 3 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+58.28 broker received edgeLet 146 from iot 3 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+58.28 broker received edgeLet 147 from iot 4 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+58.28 broker received edgeLet 148 from iot 4 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+58.28 broker received edgeLet 149 from iot 5 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+58.28 broker received edgeLet 150 from iot 5 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+58.28 broker received edgeLet 151 from iot 6 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+58.28 broker received edgeLet 152 from iot 6 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+58.28 broker received edgeLet 153 from iot 7 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+58.28 broker received edgeLet 154 from iot 7 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+60.1 TemperatureSensor 3 is sending data
+60.1 TemperatureSensor 4 is sending data
+60.1 TemperatureSensor 5 is sending data
+60.1 TemperatureSensor 6 is sending data
+60.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+61.1 broker received edgeLet 155 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+61.1 broker received edgeLet 156 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+61.1 broker received edgeLet 157 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+61.1 broker received edgeLet 158 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+61.1 broker received edgeLet 159 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+63.1 TemperatureSensor 3 is sending data
+63.1 TemperatureSensor 4 is sending data
+63.1 TemperatureSensor 5 is sending data
+63.1 TemperatureSensor 6 is sending data
+63.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+64.1 broker received edgeLet 160 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+64.1 broker received edgeLet 161 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+64.1 broker received edgeLet 162 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+64.1 broker received edgeLet 163 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+64.1 broker received edgeLet 164 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+66.1 TemperatureSensor 3 is sending data
+66.1 TemperatureSensor 4 is sending data
+66.1 TemperatureSensor 5 is sending data
+66.1 TemperatureSensor 6 is sending data
+66.1 TemperatureSensor 7 is sending data
+microELement.getId() 2
+shrinked Edgelet 170 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 171 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 172 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 173 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 174 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 175 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 176 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 177 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 178 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 179 sent from microELement 1 to microELement 3
+VMiD 2
+VMiD c 3
+66.99499999999999 broker received edgeLet 170 from iot 3 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+66.99499999999999 broker received edgeLet 171 from iot 3 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+66.99499999999999 broker received edgeLet 172 from iot 4 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+66.99499999999999 broker received edgeLet 173 from iot 4 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+66.99499999999999 broker received edgeLet 174 from iot 5 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+66.99499999999999 broker received edgeLet 175 from iot 5 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+66.99499999999999 broker received edgeLet 176 from iot 6 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+66.99499999999999 broker received edgeLet 177 from iot 6 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+66.99499999999999 broker received edgeLet 178 from iot 7 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+66.99499999999999 broker received edgeLet 179 from iot 7 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+67.1 broker received edgeLet 165 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+67.1 broker received edgeLet 166 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+67.1 broker received edgeLet 167 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+67.1 broker received edgeLet 168 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+67.1 broker received edgeLet 169 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+69.1 TemperatureSensor 3 is sending data
+69.1 TemperatureSensor 4 is sending data
+69.1 TemperatureSensor 5 is sending data
+69.1 TemperatureSensor 6 is sending data
+69.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+70.1 broker received edgeLet 180 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+70.1 broker received edgeLet 181 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+70.1 broker received edgeLet 182 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+70.1 broker received edgeLet 183 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+70.1 broker received edgeLet 184 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+72.1 TemperatureSensor 3 is sending data
+72.1 TemperatureSensor 4 is sending data
+72.1 TemperatureSensor 5 is sending data
+72.1 TemperatureSensor 6 is sending data
+72.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+73.1 broker received edgeLet 185 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+73.1 broker received edgeLet 186 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+73.1 broker received edgeLet 187 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+73.1 broker received edgeLet 188 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+73.1 broker received edgeLet 189 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+75.1 TemperatureSensor 3 is sending data
+75.1 TemperatureSensor 4 is sending data
+75.1 TemperatureSensor 5 is sending data
+75.1 TemperatureSensor 6 is sending data
+75.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+76.1 broker received edgeLet 190 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+76.1 broker received edgeLet 191 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+76.1 broker received edgeLet 192 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+76.1 broker received edgeLet 193 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+76.1 broker received edgeLet 194 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+microELement.getId() 2
+shrinked Edgelet 195 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 196 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 197 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 198 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 199 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 200 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 201 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 202 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 203 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 204 sent from microELement 1 to microELement 3
+VMiD 2
+VMiD c 3
+76.72999999999999 broker received edgeLet 195 from iot 3 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+76.72999999999999 broker received edgeLet 196 from iot 3 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+76.72999999999999 broker received edgeLet 197 from iot 4 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+76.72999999999999 broker received edgeLet 198 from iot 4 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+76.72999999999999 broker received edgeLet 199 from iot 5 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+76.72999999999999 broker received edgeLet 200 from iot 5 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+76.72999999999999 broker received edgeLet 201 from iot 6 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+76.72999999999999 broker received edgeLet 202 from iot 6 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+76.72999999999999 broker received edgeLet 203 from iot 7 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+76.72999999999999 broker received edgeLet 204 from iot 7 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+78.1 TemperatureSensor 3 is sending data
+78.1 TemperatureSensor 4 is sending data
+78.1 TemperatureSensor 5 is sending data
+78.1 TemperatureSensor 6 is sending data
+78.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+79.1 broker received edgeLet 205 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+79.1 broker received edgeLet 206 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+79.1 broker received edgeLet 207 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+79.1 broker received edgeLet 208 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+79.1 broker received edgeLet 209 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+81.1 TemperatureSensor 3 is sending data
+81.1 TemperatureSensor 4 is sending data
+81.1 TemperatureSensor 5 is sending data
+81.1 TemperatureSensor 6 is sending data
+81.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+82.1 broker received edgeLet 210 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+82.1 broker received edgeLet 211 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+82.1 broker received edgeLet 212 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+82.1 broker received edgeLet 213 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+82.1 broker received edgeLet 214 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+84.1 TemperatureSensor 3 is sending data
+84.1 TemperatureSensor 4 is sending data
+84.1 TemperatureSensor 5 is sending data
+84.1 TemperatureSensor 6 is sending data
+84.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+85.1 broker received edgeLet 215 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+85.1 broker received edgeLet 216 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+85.1 broker received edgeLet 217 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+85.1 broker received edgeLet 218 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+85.1 broker received edgeLet 219 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+microELement.getId() 2
+shrinked Edgelet 220 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 221 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 222 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 223 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 224 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 225 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 226 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 227 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 228 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 229 sent from microELement 1 to microELement 3
+VMiD 2
+VMiD c 3
+85.82499999999999 broker received edgeLet 220 from iot 3 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+85.82499999999999 broker received edgeLet 221 from iot 3 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+85.82499999999999 broker received edgeLet 222 from iot 4 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+85.82499999999999 broker received edgeLet 223 from iot 4 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+85.82499999999999 broker received edgeLet 224 from iot 5 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+85.82499999999999 broker received edgeLet 225 from iot 5 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+85.82499999999999 broker received edgeLet 226 from iot 6 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+85.82499999999999 broker received edgeLet 227 from iot 6 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+85.82499999999999 broker received edgeLet 228 from iot 7 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+85.82499999999999 broker received edgeLet 229 from iot 7 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+87.1 TemperatureSensor 3 is sending data
+87.1 TemperatureSensor 4 is sending data
+87.1 TemperatureSensor 5 is sending data
+87.1 TemperatureSensor 6 is sending data
+87.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+88.1 broker received edgeLet 230 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+88.1 broker received edgeLet 231 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+88.1 broker received edgeLet 232 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+88.1 broker received edgeLet 233 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+88.1 broker received edgeLet 234 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+90.1 TemperatureSensor 3 is sending data
+90.1 TemperatureSensor 4 is sending data
+90.1 TemperatureSensor 5 is sending data
+90.1 TemperatureSensor 6 is sending data
+90.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+91.1 broker received edgeLet 235 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+91.1 broker received edgeLet 236 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+91.1 broker received edgeLet 237 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+91.1 broker received edgeLet 238 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+91.1 broker received edgeLet 239 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+93.1 TemperatureSensor 3 is sending data
+93.1 TemperatureSensor 4 is sending data
+93.1 TemperatureSensor 5 is sending data
+93.1 TemperatureSensor 6 is sending data
+93.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+94.1 broker received edgeLet 240 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+94.1 broker received edgeLet 241 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+94.1 broker received edgeLet 242 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+94.1 broker received edgeLet 243 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+94.1 broker received edgeLet 244 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+microELement.getId() 2
+shrinked Edgelet 245 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 246 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 247 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 248 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 249 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 250 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 251 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 252 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 253 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 254 sent from microELement 1 to microELement 3
+VMiD 2
+VMiD c 3
+94.99499999999999 broker received edgeLet 245 from iot 3 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+94.99499999999999 broker received edgeLet 246 from iot 3 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+94.99499999999999 broker received edgeLet 247 from iot 4 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+94.99499999999999 broker received edgeLet 248 from iot 4 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+94.99499999999999 broker received edgeLet 249 from iot 5 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+94.99499999999999 broker received edgeLet 250 from iot 5 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+94.99499999999999 broker received edgeLet 251 from iot 6 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+94.99499999999999 broker received edgeLet 252 from iot 6 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+94.99499999999999 broker received edgeLet 253 from iot 7 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+94.99499999999999 broker received edgeLet 254 from iot 7 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+96.1 TemperatureSensor 3 is sending data
+96.1 TemperatureSensor 4 is sending data
+96.1 TemperatureSensor 5 is sending data
+96.1 TemperatureSensor 6 is sending data
+96.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+97.1 broker received edgeLet 255 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+97.1 broker received edgeLet 256 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+97.1 broker received edgeLet 257 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+97.1 broker received edgeLet 258 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+97.1 broker received edgeLet 259 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+99.1 TemperatureSensor 3 is sending data
+99.1 TemperatureSensor 4 is sending data
+99.1 TemperatureSensor 5 is sending data
+99.1 TemperatureSensor 6 is sending data
+99.1 TemperatureSensor 7 is sending data
+VMiD 1
+VMiD c 1
+100.1 broker received edgeLet 260 from iot 3 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+100.1 broker received edgeLet 261 from iot 4 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+100.1 broker received edgeLet 262 from iot 5 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+100.1 broker received edgeLet 263 from iot 6 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 1
+VMiD c 1
+100.1 broker received edgeLet 264 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+TemperatureSensor running time： 101.1
+TemperatureSensor 3's battery has been drained
+TemperatureSensor running time： 101.1
+TemperatureSensor 4's battery has been drained
+TemperatureSensor running time： 101.1
+TemperatureSensor 5's battery has been drained
+TemperatureSensor running time： 101.1
+TemperatureSensor 6's battery has been drained
+TemperatureSensor running time： 101.1
+TemperatureSensor 7's battery has been drained
+networkManager: remove iot device 3's connection
+networkManager: remove iot device 4's connection
+networkManager: remove iot device 5's connection
+networkManager: remove iot device 6's connection
+networkManager: remove iot device 7's connection
+all sensors are offline
+========== OUTPUT ==========
+Edgelet ID    MicroELement ID    Execution Time    Start Time    Finish Time    Length    Size
+    000        1            7.49            4.10        11.59        1000        30
+    001        1            7.49            4.10        11.59        1000        30
+    002        1            7.49            4.10        11.59        1000        30
+    003        1            7.49            4.10        11.59        1000        30
+    004        1            7.49            4.10        11.59        1000        30
+    015        2            0.50            11.59        12.09        1000        30
+    017        2            0.50            11.59        12.09        1000        30
+    019        2            0.50            11.59        12.09        1000        30
+    021        2            0.50            11.59        12.09        1000        30
+    023        2            0.50            11.59        12.09        1000        30
+    016        3            0.50            11.59        12.09        1000        30
+    018        3            0.50            11.59        12.09        1000        30
+    020        3            0.50            11.59        12.09        1000        30
+    022        3            0.50            11.59        12.09        1000        30
+    024        3            0.50            11.59        12.09        1000        30
+    005        1            14.48            7.10        21.58        1000        30
+    006        1            14.48            7.10        21.58        1000        30
+    007        1            14.48            7.10        21.58        1000        30
+    008        1            14.48            7.10        21.58        1000        30
+    009        1            14.48            7.10        21.58        1000        30
+    045        2            0.51            21.58        22.09        1000        30
+    047        2            0.51            21.58        22.09        1000        30
+    049        2            0.51            21.58        22.09        1000        30
+    051        2            0.51            21.58        22.09        1000        30
+    053        2            0.51            21.58        22.09        1000        30
+    046        3            0.51            21.58        22.09        1000        30
+    048        3            0.51            21.58        22.09        1000        30
+    050        3            0.51            21.58        22.09        1000        30
+    052        3            0.51            21.58        22.09        1000        30
+    054        3            0.51            21.58        22.09        1000        30
+    010        1            19.90            10.10        30.00        1000        30
+    011        1            19.90            10.10        30.00        1000        30
+    012        1            19.90            10.10        30.00        1000        30
+    013        1            19.90            10.10        30.00        1000        30
+    014        1            19.90            10.10        30.00        1000        30
+    065        2            0.51            30.00        30.51        1000        30
+    067        2            0.51            30.00        30.51        1000        30
+    069        2            0.51            30.00        30.51        1000        30
+    071        2            0.51            30.00        30.51        1000        30
+    073        2            0.51            30.00        30.51        1000        30
+    066        3            0.51            30.00        30.51        1000        30
+    068        3            0.51            30.00        30.51        1000        30
+    070        3            0.51            30.00        30.51        1000        30
+    072        3            0.51            30.00        30.51        1000        30
+    074        3            0.51            30.00        30.51        1000        30
+    025        1            26.36            13.10        39.46        1000        30
+    026        1            26.36            13.10        39.46        1000        30
+    027        1            26.36            13.10        39.46        1000        30
+    028        1            26.36            13.10        39.46        1000        30
+    029        1            26.36            13.10        39.46        1000        30
+    095        2            0.51            39.46        39.97        1000        30
+    097        2            0.51            39.46        39.97        1000        30
+    099        2            0.51            39.46        39.97        1000        30
+    101        2            0.51            39.46        39.97        1000        30
+    103        2            0.51            39.46        39.97        1000        30
+    096        3            0.51            39.46        39.97        1000        30
+    098        3            0.51            39.46        39.97        1000        30
+    100        3            0.51            39.46        39.97        1000        30
+    102        3            0.51            39.46        39.97        1000        30
+    104        3            0.51            39.46        39.97        1000        30
+    030        1            33.26            16.10        49.36        1000        30
+    031        1            33.26            16.10        49.36        1000        30
+    032        1            33.26            16.10        49.36        1000        30
+    033        1            33.26            16.10        49.36        1000        30
+    034        1            33.26            16.10        49.36        1000        30
+    120        2            0.51            49.36        49.87        1000        30
+    122        2            0.51            49.36        49.87        1000        30
+    124        2            0.51            49.36        49.87        1000        30
+    126        2            0.51            49.36        49.87        1000        30
+    128        2            0.51            49.36        49.87        1000        30
+    121        3            0.51            49.36        49.87        1000        30
+    123        3            0.51            49.36        49.87        1000        30
+    125        3            0.51            49.36        49.87        1000        30
+    127        3            0.51            49.36        49.87        1000        30
+    129        3            0.51            49.36        49.87        1000        30
+    035        1            39.18            19.10        58.28        1000        30
+    036        1            39.18            19.10        58.28        1000        30
+    037        1            39.18            19.10        58.28        1000        30
+    038        1            39.18            19.10        58.28        1000        30
+    039        1            39.18            19.10        58.28        1000        30
+    145        2            0.51            58.28        58.79        1000        30
+    147        2            0.51            58.28        58.79        1000        30
+    149        2            0.51            58.28        58.79        1000        30
+    151        2            0.51            58.28        58.79        1000        30
+    153        2            0.51            58.28        58.79        1000        30
+    146        3            0.51            58.28        58.79        1000        30
+    148        3            0.51            58.28        58.79        1000        30
+    150        3            0.51            58.28        58.79        1000        30
+    152        3            0.51            58.28        58.79        1000        30
+    154        3            0.51            58.28        58.79        1000        30
+    040        1            44.89            22.10        66.99        1000        30
+    041        1            44.89            22.10        66.99        1000        30
+    042        1            44.89            22.10        66.99        1000        30
+    043        1            44.89            22.10        66.99        1000        30
+    044        1            44.89            22.10        66.99        1000        30
+    170        2            0.51            66.99        67.50        1000        30
+    172        2            0.51            66.99        67.50        1000        30
+    174        2            0.51            66.99        67.50        1000        30
+    176        2            0.51            66.99        67.50        1000        30
+    178        2            0.51            66.99        67.50        1000        30
+    171        3            0.51            66.99        67.50        1000        30
+    173        3            0.51            66.99        67.50        1000        30
+    175        3            0.51            66.99        67.50        1000        30
+    177        3            0.51            66.99        67.50        1000        30
+    179        3            0.51            66.99        67.50        1000        30
+    055        1            51.63            25.10        76.73        1000        30
+    056        1            51.63            25.10        76.73        1000        30
+    057        1            51.63            25.10        76.73        1000        30
+    058        1            51.63            25.10        76.73        1000        30
+    059        1            51.63            25.10        76.73        1000        30
+    195        2            0.51            76.73        77.24        1000        30
+    197        2            0.51            76.73        77.24        1000        30
+    199        2            0.51            76.73        77.24        1000        30
+    201        2            0.51            76.73        77.24        1000        30
+    203        2            0.51            76.73        77.24        1000        30
+    196        3            0.51            76.73        77.24        1000        30
+    198        3            0.51            76.73        77.24        1000        30
+    200        3            0.51            76.73        77.24        1000        30
+    202        3            0.51            76.73        77.24        1000        30
+    204        3            0.51            76.73        77.24        1000        30
+    060        1            57.72            28.10        85.82        1000        30
+    061        1            57.72            28.10        85.82        1000        30
+    062        1            57.72            28.10        85.82        1000        30
+    063        1            57.72            28.10        85.82        1000        30
+    064        1            57.72            28.10        85.82        1000        30
+    220        2            0.51            85.82        86.33        1000        30
+    222        2            0.51            85.82        86.33        1000        30
+    224        2            0.51            85.82        86.33        1000        30
+    226        2            0.51            85.82        86.33        1000        30
+    228        2            0.51            85.82        86.33        1000        30
+    221        3            0.51            85.82        86.33        1000        30
+    223        3            0.51            85.82        86.33        1000        30
+    225        3            0.51            85.82        86.33        1000        30
+    227        3            0.51            85.82        86.33        1000        30
+    229        3            0.51            85.82        86.33        1000        30
+    075        1            63.89            31.10        94.99        1000        30
+    076        1            63.89            31.10        94.99        1000        30
+    077        1            63.89            31.10        94.99        1000        30
+    078        1            63.89            31.10        94.99        1000        30
+    079        1            63.89            31.10        94.99        1000        30
+    245        2            0.51            94.99        95.50        1000        30
+    247        2            0.51            94.99        95.50        1000        30
+    249        2            0.51            94.99        95.50        1000        30
+    251        2            0.51            94.99        95.50        1000        30
+    253        2            0.51            94.99        95.50        1000        30
+    246        3            0.51            94.99        95.50        1000        30
+    248        3            0.51            94.99        95.50        1000        30
+    250        3            0.51            94.99        95.50        1000        30
+    252        3            0.51            94.99        95.50        1000        30
+    254        3            0.51            94.99        95.50        1000        30
+ EdgeDevice1 of edgeDatacenter1 consumed energy, 0.0
+ EdgeDevice2 of edgeDatacenter1 consumed energy, 39749.99962091446
+end-exp

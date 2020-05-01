@@ -355,12 +355,14 @@ public abstract class IoTDevice extends SimEntity {
 
 		if(this.movingPolicy!=null) {
 			//this.getMobility().location.x=this.getMobility().location.x+this.getMobility().volecity;
-			LogUtil.info(this.getClass().getSimpleName()+" " + this.getId() +" Location is:"+this.getMobility().location.x);
+			LogUtil.info(this.getClass().getSimpleName()+" " + this.getId() +" Location is: ("+this.getMobility().location.x + ',' + this.getMobility().location.y
+			+ ',' + this.getMobility().location.z + ')');
 			this.movingPolicy.updateLocation(this.getMobility());
 		}else {
 			this.movingPolicy=new SimpleMovingPolicy();
 			//this.getMobility().location.x=this.getMobility().location.x+this.getMobility().volecity;
-			LogUtil.info(this.getClass().getSimpleName()+" " + this.getId() +" Location is:"+this.getMobility().location.x);
+			LogUtil.info(this.getClass().getSimpleName()+" " + this.getId() +" Location is: ("+this.getMobility().location.x + ',' + this.getMobility().location.y
+					+ ',' + this.getMobility().location.z + ')');
 			this.movingPolicy.updateLocation(this.mobility);
 		}
 	}
@@ -509,7 +511,6 @@ public abstract class IoTDevice extends SimEntity {
 		}
 
 		this.generateData();
-
 	}
 
 	public abstract boolean updateBatteryBySensing(Battery battery);

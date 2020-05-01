@@ -24,7 +24,8 @@ public class SimpleNetworkDelayCalculator implements NetworkDelayCalculationPoli
 			Location location2 = target.location;
 			double x=location2.x-location.x;
 			double y=location2.y-location.y;
-			distanceDelay = Math.sqrt((x*x)+(y*y));
+			double z=location2.z-location.z;
+			distanceDelay = Math.sqrt((x*x)+(y*y)+(z*z));
 		}
 		float transmissionSpeed = communicationProtocol.getTransmissionSpeed();
 		double speedRate = netWorkType.getSpeedRate();

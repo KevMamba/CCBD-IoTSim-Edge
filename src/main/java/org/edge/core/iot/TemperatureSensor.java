@@ -10,6 +10,7 @@ import org.edge.core.feature.policy.SimpleNetworkDelayCalculator;
 import org.edge.exception.NullConnectionException;
 import org.edge.network.NetworkModel;
 import org.edge.network.NetworkType;
+import java.util.Random;
 
 public class TemperatureSensor extends IoTDevice {
 
@@ -159,7 +160,8 @@ public class TemperatureSensor extends IoTDevice {
 
 	@Override
 	public EdgeLet processData(EdgeLet generated_data) {
-
+		Random rand = new Random();
+		generated_data.sensoryData = rand.nextInt(100);;
 		return generated_data;
 	}
 }

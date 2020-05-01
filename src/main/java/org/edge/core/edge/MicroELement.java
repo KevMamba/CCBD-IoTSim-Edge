@@ -96,7 +96,7 @@ public class MicroELement extends Vm {
 	
 	public MicroELement(int id, int userId, double mips, int numberOfPes, int ram, long bw, long size, String vmm,
 			CloudletScheduler cloudletScheduler,String type,float shrinkingFactor) {
-		super(id, userId, mips, numberOfPes, ram, bw, size,vmm, cloudletScheduler);
+		super(id, userId, mips, numberOfPes, ram, bw, size,vmm, cloudletScheduler, type, shrinkingFactor);
 		
 	}
 	

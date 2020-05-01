@@ -43,6 +43,8 @@ public class ConfiguationEntity {
 
 		String className;
 		List<HostEntity> hostEntities;
+		float distPrio;
+		float pePrio;
 	}
 
 	@Data
@@ -228,9 +230,23 @@ public class ConfiguationEntity {
 	public static class MovingRangeEntity {
 		public int beginX;
 		public int endX;
+		public int beginY;
+		public int endY;
+		public int beginZ;
+		public int endZ;
 
 		public MovingRangeEntity() {
 			super();
+		}
+
+		public MovingRangeEntity(int beginX, int endX, int beginY, int endY, int beginZ, int endZ) {
+			super();
+			this.beginX = beginX;
+			this.endX = endX;
+			this.beginY =  beginY;
+			this.endY = endY;
+			this.beginZ =  beginZ;
+			this.endZ = endZ;
 		}
 
 		public MovingRangeEntity(int beginX, int endX) {

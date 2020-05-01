@@ -180,6 +180,11 @@ public class IoTCreation extends Application {
 					  MovingRangeEntity rangeEntity=new MovingRangeEntity();
 					  rangeEntity.beginX=Integer.parseInt(rangeBegin.getText());
 					  rangeEntity.endX=Integer.parseInt(rangeEnd.getText());
+					  rangeEntity.beginY=Integer.parseInt(rangeBegin.getText());
+					  rangeEntity.endY=Integer.parseInt(rangeEnd.getText());
+					  rangeEntity.beginZ=Integer.parseInt(rangeBegin.getText());
+					  rangeEntity.endZ=Integer.parseInt(rangeEnd.getText());
+
 					  mobilityEntity.setRange(rangeEntity);
 					  
 					  mobilityEntity.setVolecity(Double.parseDouble(velocity.getText()));

@@ -179,7 +179,7 @@ public class EdgeDevice extends Host{
 	}
 	
 	
-	public void updateBatteryByProcessingCloudLetAndSend(double fileSize, double shrinkFactor,double drangeRateForProcess,double drangeRateForSending) {
+	public void updateBatteryByProcessingCloudLetAndSend(double fileSize, float shrinkFactor,double drangeRateForProcess,double drangeRateForSending) {
 		
 		//		LogUtil.info(battery.getMaxCapacity()+" "+battery.getCurrentCapacity() +" "+battery_drainage_rate);
 		
@@ -202,7 +202,7 @@ public class EdgeDevice extends Host{
 		
 	}
 
-public void updateBatteryByProcessingCloudLetAndSend2(double fileSize, double shrinkFactor,double drangeRateForProcess,double drangeRateForSending) {
+public void updateBatteryByProcessingCloudLetAndSend2(double fileSize, float shrinkFactor,double drangeRateForProcess,double drangeRateForSending) {
 		
 		//		LogUtil.info(battery.getMaxCapacity()+" "+battery.getCurrentCapacity() +" "+battery_drainage_rate);
 		
