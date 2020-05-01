@@ -6,6 +6,7 @@
 	<artifactId>simulator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
+<<<<<<< HEAD
 
 		<dependency>
              <groupId>org.cloudbus.cloudsim</groupId>
@@ -27,6 +28,20 @@
 			<version>4.12</version>
 		<scope>test</scope>
   	</dependency> 
+=======
+	
+<!-- 	<dependency>
+  		<groupId>org.cloudbus.cloudsim</groupId>
+  		<artifactId>cloudsim</artifactId>
+  		<version>3.0.3</version>
+  	</dependency> --> 
+ <dependency>
+ 	<groupId>junit</groupId>
+	<artifactId>junit</artifactId>
+	<version>4.12</version>
+	<scope>test</scope>
+</dependency> 
+>>>>>>> 74ada06afe4e4aee27cb1e8afcfb7497044c810d
 <dependency>
     <groupId>com.google.code.gson</groupId>
     <artifactId>gson</artifactId>
@@ -39,8 +54,26 @@
     <scope>provided</scope>
 </dependency>-->
 
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
 
-	</dependencies>
+<dependency>
+	<groupId>org.openjfx</groupId>
+	<artifactId>javafx-base</artifactId>
+	<version>11</version>
+</dependency>
+
+<dependency>
+	<groupId>org.openjfx</groupId>
+	<artifactId>javafx-controls</artifactId>
+	<version>11</version>
+</dependency>
+
+
+</dependencies>
 
 	<build>
 		<plugins>
