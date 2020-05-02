@@ -1,5 +1,13 @@
-# IoTSIM
+# IoTSIM Edge
 
-To reduce the complexity of the code, we used lombok in the pom.xml which provides getter and setter for different variables automatically. Based on the version of the Eclipse, lombok version need to updated. If this does not work, please download the jar file from  https://projectlombok.org/downloads/lombok.jar and install using command line > java -jar lombok.jar. Finally restart the Eclipse to make the change effective.
+## Overview
 
-The IoTSim-Edge codebase is dependent on CloudSim which is provided as external jar file located in EdgeIoTSim\lib folder. One has to change the location of CloudSim jar file to compile succesfully.
+The IoTSim-Edge codebase is dependent on CloudSim. IoTSim Edge is a simulator that allows one to simulate IoT devices and end devices of their own preference in an environment virtually governed by the user. IoTSim-Edge is built on the top of CloudSim simulation tool which provides the underlying mechanisms for handling communication.
+
+## Cloud Computing & Big Data Lab
+
+**Project Team:**
+- Sriram SK - PES1201700097
+- Shreyas Prashanth - PES1201701249
+- Ashwath J - PES1201701121
+- Kevin Arulraj - PES1201700659
