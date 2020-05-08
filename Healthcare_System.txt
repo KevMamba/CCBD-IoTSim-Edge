@@ -5588,6 +5588,19 @@ VMiD 1
 VMiD c 1
 151.1 broker received edgeLet 1078 from iot 21 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+<<<<<<< HEAD
+=======
+Temperature from sensor reaching critical levels --- 92.0
+Temperature from sensor reaching critical levels --- 92.0
+Temperature from sensor reaching critical levels --- 92.0
+Temperature from sensor reaching critical levels --- 92.0
+Temperature from sensor reaching critical levels --- 92.0
+15.1 TemperatureSensor 3 is sending data
+15.1 TemperatureSensor 4 is sending data
+15.1 TemperatureSensor 5 is sending data
+15.1 TemperatureSensor 6 is sending data
+15.1 TemperatureSensor 7 is sending data
+>>>>>>> 878303fdc97f68bdc8374fcf69a2c213c28b2df2
 VMiD 1
 VMiD c 1
 151.1 broker received edgeLet 1079 from iot 22 and send it to VM 1
@@ -5638,6 +5651,16 @@ VMiD 1
 VMiD c 1
 153.1 broker received edgeLet 1088 from iot 21 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+Temperature from sensor reaching critical levels --- 86.0
+Temperature from sensor reaching critical levels --- 86.0
+Temperature from sensor reaching critical levels --- 86.0
+Temperature from sensor reaching critical levels --- 86.0
+Temperature from sensor reaching critical levels --- 86.0
+Temperature from sensor reaching critical levels --- 86.0
+Temperature from sensor reaching critical levels --- 86.0
+Temperature from sensor reaching critical levels --- 86.0
+Temperature from sensor reaching critical levels --- 86.0
+Temperature from sensor reaching critical levels --- 86.0
 VMiD 1
 VMiD c 1
 153.1 broker received edgeLet 1089 from iot 22 and send it to VM 1
@@ -5668,6 +5691,19 @@ VMiD 1
 VMiD c 1
 155.1 broker received edgeLet 1093 from iot 16 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+<<<<<<< HEAD
+=======
+Temperature from sensor reaching critical levels --- 86.0
+Temperature from sensor reaching critical levels --- 86.0
+Temperature from sensor reaching critical levels --- 86.0
+Temperature from sensor reaching critical levels --- 86.0
+Temperature from sensor reaching critical levels --- 86.0
+24.1 TemperatureSensor 3 is sending data
+24.1 TemperatureSensor 4 is sending data
+24.1 TemperatureSensor 5 is sending data
+24.1 TemperatureSensor 6 is sending data
+24.1 TemperatureSensor 7 is sending data
+>>>>>>> 878303fdc97f68bdc8374fcf69a2c213c28b2df2
 VMiD 1
 VMiD c 1
 155.1 broker received edgeLet 1094 from iot 17 and send it to VM 1
@@ -5738,6 +5774,14 @@ VMiD 1
 VMiD c 1
 157.1 broker received edgeLet 1108 from iot 21 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+<<<<<<< HEAD
+=======
+33.1 TemperatureSensor 3 is sending data
+33.1 TemperatureSensor 4 is sending data
+33.1 TemperatureSensor 5 is sending data
+33.1 TemperatureSensor 6 is sending data
+33.1 TemperatureSensor 7 is sending data
+>>>>>>> 878303fdc97f68bdc8374fcf69a2c213c28b2df2
 VMiD 1
 VMiD c 1
 157.1 broker received edgeLet 1109 from iot 22 and send it to VM 1
@@ -5768,6 +5812,14 @@ VMiD 1
 VMiD c 1
 159.1 broker received edgeLet 1113 from iot 16 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+<<<<<<< HEAD
+=======
+36.1 TemperatureSensor 3 is sending data
+36.1 TemperatureSensor 4 is sending data
+36.1 TemperatureSensor 5 is sending data
+36.1 TemperatureSensor 6 is sending data
+36.1 TemperatureSensor 7 is sending data
+>>>>>>> 878303fdc97f68bdc8374fcf69a2c213c28b2df2
 VMiD 1
 VMiD c 1
 159.1 broker received edgeLet 1114 from iot 17 and send it to VM 1
@@ -5868,6 +5920,19 @@ VMiD 1
 VMiD c 1
 163.1 broker received edgeLet 1133 from iot 16 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+<<<<<<< HEAD
+=======
+Temperature from sensor reaching critical levels --- 92.0
+Temperature from sensor reaching critical levels --- 92.0
+Temperature from sensor reaching critical levels --- 92.0
+Temperature from sensor reaching critical levels --- 92.0
+Temperature from sensor reaching critical levels --- 92.0
+48.1 TemperatureSensor 3 is sending data
+48.1 TemperatureSensor 4 is sending data
+48.1 TemperatureSensor 5 is sending data
+48.1 TemperatureSensor 6 is sending data
+48.1 TemperatureSensor 7 is sending data
+>>>>>>> 878303fdc97f68bdc8374fcf69a2c213c28b2df2
 VMiD 1
 VMiD c 1
 163.1 broker received edgeLet 1134 from iot 17 and send it to VM 1
@@ -5918,6 +5983,19 @@ VMiD 1
 VMiD c 1
 165.1 broker received edgeLet 1143 from iot 16 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+<<<<<<< HEAD
+=======
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+54.1 TemperatureSensor 3 is sending data
+54.1 TemperatureSensor 4 is sending data
+54.1 TemperatureSensor 5 is sending data
+54.1 TemperatureSensor 6 is sending data
+54.1 TemperatureSensor 7 is sending data
+>>>>>>> 878303fdc97f68bdc8374fcf69a2c213c28b2df2
 VMiD 1
 VMiD c 1
 165.1 broker received edgeLet 1144 from iot 17 and send it to VM 1
@@ -5966,8 +6044,93 @@ VMiD c 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
 VMiD 1
 VMiD c 1
+<<<<<<< HEAD
 167.1 broker received edgeLet 1153 from iot 16 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+=======
+58.1 broker received edgeLet 144 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+microELement.getId() 2
+shrinked Edgelet 145 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 146 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 147 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 148 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 149 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 150 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 151 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 152 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 153 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 154 sent from microELement 1 to microELement 3
+VMiD 2
+VMiD c 3
+58.28 broker received edgeLet 145 from iot 3 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+58.28 broker received edgeLet 146 from iot 3 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+58.28 broker received edgeLet 147 from iot 4 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+58.28 broker received edgeLet 148 from iot 4 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+58.28 broker received edgeLet 149 from iot 5 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+58.28 broker received edgeLet 150 from iot 5 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+58.28 broker received edgeLet 151 from iot 6 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+58.28 broker received edgeLet 152 from iot 6 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+58.28 broker received edgeLet 153 from iot 7 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+58.28 broker received edgeLet 154 from iot 7 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+Temperature from sensor reaching critical levels --- 99.0
+60.1 TemperatureSensor 3 is sending data
+60.1 TemperatureSensor 4 is sending data
+60.1 TemperatureSensor 5 is sending data
+60.1 TemperatureSensor 6 is sending data
+60.1 TemperatureSensor 7 is sending data
+>>>>>>> 878303fdc97f68bdc8374fcf69a2c213c28b2df2
 VMiD 1
 VMiD c 1
 167.1 broker received edgeLet 1154 from iot 17 and send it to VM 1
@@ -6088,6 +6251,14 @@ VMiD 1
 VMiD c 1
 171.1 broker received edgeLet 1178 from iot 21 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+<<<<<<< HEAD
+=======
+75.1 TemperatureSensor 3 is sending data
+75.1 TemperatureSensor 4 is sending data
+75.1 TemperatureSensor 5 is sending data
+75.1 TemperatureSensor 6 is sending data
+75.1 TemperatureSensor 7 is sending data
+>>>>>>> 878303fdc97f68bdc8374fcf69a2c213c28b2df2
 VMiD 1
 VMiD c 1
 171.1 broker received edgeLet 1179 from iot 22 and send it to VM 1
@@ -6116,8 +6287,78 @@ VMiD c 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
 VMiD 1
 VMiD c 1
+<<<<<<< HEAD
 173.1 broker received edgeLet 1183 from iot 16 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+=======
+76.1 broker received edgeLet 194 from iot 7 and send it to VM 1
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+microELement.getId() 2
+shrinked Edgelet 195 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 196 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 197 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 198 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 199 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 200 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 201 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 202 sent from microELement 1 to microELement 3
+microELement.getId() 2
+shrinked Edgelet 203 sent from microELement 1 to microELement 2
+microELement.getId() 3
+shrinked Edgelet 204 sent from microELement 1 to microELement 3
+VMiD 2
+VMiD c 3
+76.72999999999999 broker received edgeLet 195 from iot 3 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+76.72999999999999 broker received edgeLet 196 from iot 3 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+76.72999999999999 broker received edgeLet 197 from iot 4 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+76.72999999999999 broker received edgeLet 198 from iot 4 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+76.72999999999999 broker received edgeLet 199 from iot 5 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+76.72999999999999 broker received edgeLet 200 from iot 5 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+76.72999999999999 broker received edgeLet 201 from iot 6 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+76.72999999999999 broker received edgeLet 202 from iot 6 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 2
+VMiD c 3
+76.72999999999999 broker received edgeLet 203 from iot 7 and send it to VM 2
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+VMiD 3
+VMiD c 2
+76.72999999999999 broker received edgeLet 204 from iot 7 and send it to VM 3
+Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+78.1 TemperatureSensor 3 is sending data
+78.1 TemperatureSensor 4 is sending data
+78.1 TemperatureSensor 5 is sending data
+78.1 TemperatureSensor 6 is sending data
+78.1 TemperatureSensor 7 is sending data
+>>>>>>> 878303fdc97f68bdc8374fcf69a2c213c28b2df2
 VMiD 1
 VMiD c 1
 173.1 broker received edgeLet 1184 from iot 17 and send it to VM 1
@@ -6218,6 +6459,19 @@ VMiD 1
 VMiD c 1
 177.1 broker received edgeLet 1203 from iot 16 and send it to VM 1
 Edge Device 2 -  1 ( updateByProcess = 89.99999761581421 ) ( updateBySending = 60.00000089406967 )
+<<<<<<< HEAD
+=======
+Temperature from sensor reaching critical levels --- 95.0
+Temperature from sensor reaching critical levels --- 95.0
+Temperature from sensor reaching critical levels --- 95.0
+Temperature from sensor reaching critical levels --- 95.0
+Temperature from sensor reaching critical levels --- 95.0
+90.1 TemperatureSensor 3 is sending data
+90.1 TemperatureSensor 4 is sending data
+90.1 TemperatureSensor 5 is sending data
+90.1 TemperatureSensor 6 is sending data
+90.1 TemperatureSensor 7 is sending data
+>>>>>>> 878303fdc97f68bdc8374fcf69a2c213c28b2df2
 VMiD 1
 VMiD c 1
 177.1 broker received edgeLet 1204 from iot 17 and send it to VM 1
