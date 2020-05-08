@@ -6,6 +6,7 @@ import org.cloudbus.cloudsim.*;
 import org.cloudbus.cloudsim.core.CloudSim;
 import org.cloudbus.cloudsim.core.CloudSimTags;
 import org.cloudbus.cloudsim.core.SimEvent;
+import org.edge.core.CloudletSchedulerTimeSharedEdge;
 import org.edge.core.feature.EdgeLet;
 import org.edge.core.feature.EdgeState;
 import org.edge.core.iot.IoTDevice;
@@ -41,16 +42,45 @@ public class EdgeDataCenter extends Datacenter {
 	}
 
 	@Override
+	protected void processVmCreate(SimEvent ev, boolean ack) {
+		Vm vm = (Vm) ev.getData();
+
+		boolean result = getVmAllocationPolicy().
+				allocateHostForVm(vm);
+
+		if (ack) {
+			int[] data = new int[3];
+			data[0] = getId();
+			data[1] = vm.getId();
+
+			if (result) {
+				data[2] = CloudSimTags.TRUE;
+			} else {
+				data[2] = CloudSimTags.FALSE;
+			}
+			send(vm.getUserId(), CloudSim.getMinTimeBetweenEvents(), CloudSimTags.VM_CREATE_ACK, data);
+		}
+
+		if (result) {
+			getVmList().add(vm);
+
+			if (vm.isBeingInstantiated()) {
+				vm.setBeingInstantiated(false);
+			}
+
+			vm.updateVmProcessing(CloudSim.clock(), getVmAllocationPolicy().getHost(vm).getVmScheduler()
+					.getAllocatedMipsForVm(vm));
+		}
+
+	}
+
+	@Override
 	protected void processCloudletSubmit(SimEvent ev, boolean ack) {
 		updateCloudletProcessing();
 
-		EdgeLet el = (EdgeLet) ev.getData();
-		if (el.sensoryData > 85) {
-			LogUtil.info("Temperature from sensor reaching critical levels --- " + el.sensoryData);
-		}
 		try {
 			// gets the Cloudlet object
-			Cloudlet cl = (Cloudlet) ev.getData();
+			EdgeLet cl = (EdgeLet) ev.getData();
 
 			// checks whether this Cloudlet has finished or not
 			if (cl.isFinished()) {
@@ -93,7 +123,8 @@ public class EdgeDataCenter extends Datacenter {
 
 			Host host = getVmAllocationPolicy().getHost(vmId, userId);
 			Vm vm = host.getVm(vmId, userId);
-			CloudletScheduler scheduler = vm.getCloudletScheduler();
+			CloudletSchedulerTimeSharedEdge scheduler = (CloudletSchedulerTimeSharedEdge) vm.getCloudletScheduler();
+
 			double estimatedFinishTime = scheduler.cloudletSubmit(cl, fileTransferTime);
 
 			// if this cloudlet is in the exec queue
@@ -121,39 +152,6 @@ public class EdgeDataCenter extends Datacenter {
 		}
 
 		checkCloudletCompletion();
-	}
-
-	@Override
-	protected void processVmCreate(SimEvent ev, boolean ack) {
-		Vm vm = (Vm) ev.getData();
-
-		boolean result = getVmAllocationPolicy().
-				allocateHostForVm(vm);
-
-		if (ack) {
-			int[] data = new int[3];
-			data[0] = getId();
-			data[1] = vm.getId();
-
-			if (result) {
-				data[2] = CloudSimTags.TRUE;
-			} else {
-				data[2] = CloudSimTags.FALSE;
-			}
-			send(vm.getUserId(), CloudSim.getMinTimeBetweenEvents(), CloudSimTags.VM_CREATE_ACK, data);
-		}
-
-		if (result) {
-			getVmList().add(vm);
-
-			if (vm.isBeingInstantiated()) {
-				vm.setBeingInstantiated(false);
-			}
-
-			vm.updateVmProcessing(CloudSim.clock(), getVmAllocationPolicy().getHost(vm).getVmScheduler()
-					.getAllocatedMipsForVm(vm));
-		}
-
 	}
 
 	@Override

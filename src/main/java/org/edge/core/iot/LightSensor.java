@@ -16,11 +16,11 @@ public class LightSensor extends IoTDevice {
 	static EdgeLet edgeLet;
 
 	static {
-		long length = 500;
+		long length = 50;
 		long fileSize = 10;
 		long outputSize = 10;
 		edgeLet = new EdgeLet(EdgeLet.id++, length, 1, fileSize, outputSize, new UtilizationModelFull(), new UtilizationModelFull(),
-				new UtilizationModelFull());
+				new UtilizationModelFull(),"lightSensor");
 	}
 	public static final double DATA_GENERATION_TIME=1;
 
@@ -41,7 +41,7 @@ public class LightSensor extends IoTDevice {
 
 	public LightSensor(
 			NetworkModel networkModel, long capacityToStore, double transfer_frequency) {
-		super(IoTType.ENVIRONMENTAL_SENSOR,"temperatureSensor", DATA_FREQUENCY,DATA_GENERATION_TIME, COMPLEXITY_OF_DATAPACKAGE, DATA_SIZE, networkModel, MAX_BATTERY_CAPACITY, BATTERY_DRAINAGE_RATE,
+		super(IoTType.ENVIRONMENTAL_SENSOR,"lightSensor", DATA_FREQUENCY,DATA_GENERATION_TIME, COMPLEXITY_OF_DATAPACKAGE, DATA_SIZE, networkModel, MAX_BATTERY_CAPACITY, BATTERY_DRAINAGE_RATE,
 				PROCESSING_ABILITY, capacityToStore, transfer_frequency,edgeLet);
 	}
 
@@ -50,7 +50,7 @@ public class LightSensor extends IoTDevice {
 	public LightSensor(
 			NetworkModel networkModel
 			) {
-		super(IoTType.ENVIRONMENTAL_SENSOR,"temperatureSensor", DATA_FREQUENCY,DATA_GENERATION_TIME, COMPLEXITY_OF_DATAPACKAGE, DATA_SIZE, networkModel, MAX_BATTERY_CAPACITY, BATTERY_DRAINAGE_RATE,
+		super(IoTType.ENVIRONMENTAL_SENSOR,"lightSensor", DATA_FREQUENCY,DATA_GENERATION_TIME, COMPLEXITY_OF_DATAPACKAGE, DATA_SIZE, networkModel, MAX_BATTERY_CAPACITY, BATTERY_DRAINAGE_RATE,
 				PROCESSING_ABILITY,edgeLet);
 	}
 
@@ -159,7 +159,7 @@ public class LightSensor extends IoTDevice {
 
 	@Override
 	public EdgeLet processData(EdgeLet generated_data) {
-
+		generated_data.sensorType = "light";
 		return generated_data;
 	}
 

@@ -12,6 +12,7 @@ public class EdgeLet extends Cloudlet {
 	public static double sensoryData = 0;
 	private ConnectionHeader header;
 	private boolean edgeRecord;
+	public String sensorType;
 	public ConnectionHeader getConnectionHeader() {
 		return header;
 	}
@@ -73,12 +74,19 @@ public class EdgeLet extends Cloudlet {
 
 	public EdgeLet(int cloudletId, double cloudletLength, int pesNumber, double cloudletFileSize, double cloudletOutputSize,
 			UtilizationModel utilizationModelCpu, UtilizationModel utilizationModelRam,
-			UtilizationModel utilizationModelBw, boolean record) {
+			UtilizationModel utilizationModelBw, String sensorType) {
+		super(cloudletId, (long) cloudletLength, pesNumber, (long) cloudletFileSize, (long) cloudletOutputSize, utilizationModelCpu,
+				utilizationModelRam, utilizationModelBw);
+		this.sensorType=sensorType;
+	}
+
+	public EdgeLet(int cloudletId, double cloudletLength, int pesNumber, double cloudletFileSize, double cloudletOutputSize,
+				   UtilizationModel utilizationModelCpu, UtilizationModel utilizationModelRam,
+				   UtilizationModel utilizationModelBw, boolean record) {
 		super(cloudletId, (long) cloudletLength, pesNumber, (long) cloudletFileSize, (long) cloudletOutputSize, utilizationModelCpu,
 				utilizationModelRam, utilizationModelBw, record);
 		this.edgeRecord=record;
 	}
-
 	public EdgeLet(int cloudletId, double cloudletLength, int pesNumber, double cloudletFileSize, double cloudletOutputSize,
 			UtilizationModel utilizationModelCpu, UtilizationModel utilizationModelRam,
 			UtilizationModel utilizationModelBw, List<String> fileList) {

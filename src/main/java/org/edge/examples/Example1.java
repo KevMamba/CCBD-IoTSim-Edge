@@ -5,22 +5,21 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Constructor;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 import org.cloudbus.cloudsim.*;
 import org.cloudbus.cloudsim.core.CloudSim;
 import org.cloudbus.cloudsim.provisioners.BwProvisioner;
 import org.cloudbus.cloudsim.provisioners.PeProvisioner;
 import org.cloudbus.cloudsim.provisioners.RamProvisioner;
+import org.edge.core.CloudletSchedulerTimeSharedEdge;
 import org.edge.core.VmAllocationPolicyEdge;
 import org.edge.core.edge.EdgeDataCenter;
 import org.edge.core.edge.EdgeDataCenterBroker;
 import org.edge.core.edge.EdgeDatacenterCharacteristics;
 import org.edge.core.edge.EdgeDevice;
 import org.edge.core.edge.MicroELement;
+import org.edge.core.feature.EdgeLet;
 import org.edge.core.feature.EdgeType;
 import org.edge.core.feature.Mobility;
 import org.edge.core.feature.Mobility.MovingRange;
@@ -93,7 +92,7 @@ public class Example1 {
 		
 		
 		List<Cloudlet> cloudletReceivedList = broker.getCloudletReceivedList();
-		
+
 		printCloudletList(cloudletReceivedList, melList,datacenters);
 		LogUtil.simulationFinished();
 		
@@ -174,9 +173,25 @@ public class Example1 {
 		DecimalFormat dft = new DecimalFormat("0.00");
 		DecimalFormat idft = new DecimalFormat("000");
 
+		double avgLightExecTime=0;
+		double avgTempExecTime=0;
+		int lightcount = 0;
+		int tempcount = 0;
+
 		for (int i = 0; i < size; i++) {
-			edgeLet = list.get(i);
+			edgeLet = (EdgeLet) list.get(i);
 			//Log.print(indent + idft.format(edgeLet.getCloudletId()) + indent + indent);
+
+			if (edgeLet.getCloudletFileSize() == 10) {
+				//light
+				avgLightExecTime += edgeLet.getActualCPUTime();
+				lightcount++;
+			}
+			else {
+				//temp
+				avgTempExecTime += edgeLet.getActualCPUTime();
+				tempcount++;
+			}
 
 			if (edgeLet.getStatus() == Cloudlet.SUCCESS) {
 				
@@ -196,8 +211,10 @@ public class Example1 {
 						);
 				execTime.add(dft.format(edgeLet.getActualCPUTime()));
 			}
-
 		}
+
+		System.out.println("Average light sensor execution time : " + avgLightExecTime/lightcount);
+		System.out.println("Average temp sensor execution time : " + avgTempExecTime/tempcount);
 
 		edgeLet = list.get(list.size()-1);
 		edgeLet.getUtilizationModelRam().getUtilization(0);
@@ -305,13 +322,18 @@ public class Example1 {
 		for (MELEntities melEntity : melEntities) {
 			
 			String cloudletSchedulerClassName = melEntity.getCloudletSchedulerClassName();
-			CloudletScheduler cloudletScheduler;
+			//CloudletScheduler cloudletScheduler;
+			CloudletSchedulerTimeSharedEdge cloudletScheduler;
 			try {
 				String edgeOperationStr = melEntity.getEdgeOperationClass();
 				EdgeOperation edgeOperation = (EdgeOperation) Class.forName(edgeOperationStr).newInstance();
 
-				
-				cloudletScheduler = (CloudletScheduler) Class.forName(cloudletSchedulerClassName).newInstance();
+				Map<String, Integer> sensorMap = melEntity.getSensorMap();
+
+				cloudletScheduler = (CloudletSchedulerTimeSharedEdge) Class.forName(cloudletSchedulerClassName).newInstance();
+				//cloudletScheduler = (CloudletScheduler) Class.forName(cloudletSchedulerClassName).newInstance();
+				cloudletScheduler.setSensorMap(sensorMap);
+
 				float datasizeShrinkFactor = melEntity.getDatasizeShrinkFactor();
 				String type = melEntity.getType();
 				MicroELement microELement= new MicroELement(melEntity.getVmid()	, broker.getId(),melEntity.getMips(),
@@ -320,7 +342,6 @@ public class Example1 {
 						type,datasizeShrinkFactor
 						);
 				microELement.setEdgeOperation(edgeOperation);
-				
 				vms.add(microELement);
 				MicroElementTopologyEntity melTopology = melEntity.getMELTopology();
 				melTopology.setId(microELement.getId());
@@ -548,8 +569,8 @@ public class Example1 {
 		// 6. Finally, we need to create a PowerDatacenter object.
 		EdgeDataCenter datacenter = null;
 		try {
-			//VmAllocationPolicy vmAllocationPolicy = (VmAllocationPolicy)Class.forName(className).getConstructor(List.class).newInstance(hostList);
-			//VmAllocationPolicyEdge vmAllocationPolicy = VmAllocationPolicyEdge() Class.forName(className).getConstructor(List.class).newInstance(hostList, distPrio, pePrio);
+			//VmAllocationPolicy vmAllocationPolicy = (VmAllocationPolicySimple)Class.forName(className).getConstructor(List.class).newInstance(hostList);
+			//VmAllocationPolicyEdge vmAllocationPolicy = (VmAllocationPolicyEdge)Class.forName(className).getConstructor(List.class).newInstance(hostList, distPrio, pePrio);
 			VmAllocationPolicyEdge vmAllocationPolicy = new VmAllocationPolicyEdge(hostList,0.5f,0.5f,avgLocation);
 
 			datacenter = new EdgeDataCenter(entity.getName(), characteristics,vmAllocationPolicy,

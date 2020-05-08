@@ -1,6 +1,7 @@
 package org.edge.entity;
 
 import java.util.List;
+import java.util.Map;
 
 import org.edge.core.feature.Mobility.Location;
 
@@ -155,6 +156,7 @@ public class ConfiguationEntity {
 		String type;
 		String edgeOperationClass;
 		float datasizeShrinkFactor;
+		Map<String, Integer> sensorMap;
 		
 	}
 

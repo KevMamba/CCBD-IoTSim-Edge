@@ -17,11 +17,11 @@ public class TemperatureSensor extends IoTDevice {
 	static EdgeLet edgeLet;
 
 	static {
-		long length = 1000;
+		long length = 100;
 		long fileSize = 30;
 		long outputSize = 10;
 		edgeLet = new EdgeLet(EdgeLet.id++, length, 1, fileSize, outputSize, new UtilizationModelFull(), new UtilizationModelFull(),
-				new UtilizationModelFull());
+				new UtilizationModelFull(), "temperatureSensor");
 	}
 	public static final double DATA_GENERATION_TIME=1;
 
@@ -161,6 +161,7 @@ public class TemperatureSensor extends IoTDevice {
 	@Override
 	public EdgeLet processData(EdgeLet generated_data) {
 		Random rand = new Random();
+		generated_data.sensorType = "temperature";
 		generated_data.sensoryData = rand.nextInt(100);;
 		return generated_data;
 	}

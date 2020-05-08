@@ -4,15 +4,13 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import org.cloudbus.cloudsim.DatacenterBroker;
-import org.cloudbus.cloudsim.Host;
-import org.cloudbus.cloudsim.Log;
-import org.cloudbus.cloudsim.Vm;
+import org.cloudbus.cloudsim.*;
 import org.cloudbus.cloudsim.core.CloudSim;
 import org.cloudbus.cloudsim.core.CloudSimTags;
 import org.cloudbus.cloudsim.core.SimEntity;
 import org.cloudbus.cloudsim.core.SimEvent;
 import org.cloudbus.cloudsim.lists.VmList;
+import org.edge.core.CloudletSchedulerTimeSharedEdge;
 import org.edge.core.feature.EdgeLet;
 import org.edge.core.feature.EdgeState;
 import org.edge.core.feature.Mobility.Location;
@@ -82,11 +80,6 @@ public class EdgeDataCenterBroker extends DatacenterBroker {
 		}
 	}
 
-	/**
-	 * submit edgelets to its downlink
-	 * 
-	 * @param ev
-	 */
 	private void dataShrinkAndSendToDownLink(SimEvent ev) {
 		// TODO transfer Data To the VMs children
 
@@ -99,11 +92,11 @@ public class EdgeDataCenterBroker extends DatacenterBroker {
 		double shrinkingFactor = findFirst.getEdgeOperation().getShinkingFactor();
 		for (MicroELement microELement : downLink) {
 			EdgeLet newInstance = data.newInstance(IoTDevice.cloudLetId++, shrinkingFactor);
-			
+			newInstance.sensorType = data.sensorType;
+
 			// added by Areeb
 			LogUtil.info("microELement.getId() " + microELement.getId());
-			
-			
+
 			data.getConnectionHeader().vmId=microELement.getId();
 			newInstance.setConnectionHeader(data.getConnectionHeader());
 			newInstance.setVmId(microELement.getId());

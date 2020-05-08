@@ -5,15 +5,10 @@ import java.util.List;
 import org.cloudbus.cloudsim.CloudletScheduler;
 import org.cloudbus.cloudsim.Vm;
 import org.cloudbus.cloudsim.power.PowerVm;
+import org.edge.core.CloudletSchedulerTimeSharedEdge;
 import org.edge.core.feature.operation.EdgeOperation;
 
 public class MicroELement extends Vm {
-
-
-
-
-	
-
 
 	private EdgeOperation edgeOperation;
 
@@ -26,8 +21,6 @@ public class MicroELement extends Vm {
 	private int datasize;
 	private int payload;
 	private MicroELement upLink;
-	
-
 
   /**
    * TODO 
@@ -86,8 +79,6 @@ public class MicroELement extends Vm {
 	}
 
 
-
-
 	
 	public MicroELement(int id, int userId, double mips, int numberOfPes, int ram, long bw, long size, String vmm,
 			CloudletScheduler cloudletScheduler) {
@@ -99,7 +90,5 @@ public class MicroELement extends Vm {
 		super(id, userId, mips, numberOfPes, ram, bw, size,vmm, cloudletScheduler, type, shrinkingFactor);
 		
 	}
-	
-	
 
 }
